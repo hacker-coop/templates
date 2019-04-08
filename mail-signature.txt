@@ -1,6 +1,6 @@
 --
 
-<Vorname> 'nick' <Nachname>
+<Vorname> '<nick>' <Nachname>
 <Funktion>
 
 <Mailadresse>
