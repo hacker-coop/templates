@@ -5,7 +5,8 @@
 
 <Mailadresse>
 
-VEBIT e.V.
+Verein zur Erschließung neuer Betätigungsformen in der Informationstechnologie
+VEBIT e.V., Riesaer Straße 32, 01127 Dresden
 
 Vertretungsberechtigter Vorstand: Chris Weber, Anton Müller
 
