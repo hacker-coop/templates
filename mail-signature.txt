@@ -1,0 +1,14 @@
+--
+
+<Vorname> 'nick' <Nachname>
+<Funktion>
+
+<Mailadresse>
+
+VEBIT e.V.
+
+Vertretungsberechtigter Vorstand: Chris Weber, Anton Müller
+
+Registergericht: Amtsgericht Dresden
+
+Registernummer:  VR 11346
