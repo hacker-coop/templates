@@ -1,0 +1,37 @@
+\documentclass[a4paper,14pt]{scrartcl}
+\usepackage[utf8]{inputenc} 
+\usepackage[pdftex,colorlinks=false]{hyperref}
+
+\renewcommand{\MakeTextField}[2]{{\vbox to #2{\vfill\hbox to #1{\hrulefill}}}}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[bordercolor=1 1 1,name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
+
+\begin{document}
+
+\section*{Personendaten Mitglieder}
+
+% Mit diesem Formular sollen die Personendaten fÃ¼r Mitglieder erfasst
+% werden wie sie auf dem gefÃ¼hrten amtlichen Ausweis stehen.
+% Ein Pseudony ist optional und kann vom Ausweis abweichen.
+
+  \begin{Form}
+    \q{Meldedatum}
+    \q{Nachname}
+    \q{Vorname}
+    \q{Geburtsdatum}
+    \q{Geburtsort}
+    \q{Anschrift}
+    \q{E-Mail}
+    \q{Pseudonym}
+   \end{Form}
+ \end{document}
+
+% Ãnderungen/ErgÃ¤nzungen fÃ¼r einen Mitgliedschaftsantrag o.Ã¤. kÃ¶nnen gerne vorgeschlagen
